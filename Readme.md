@@ -19,7 +19,7 @@ It notifies when the server is unreachable and when it starts up.
 ## Installation
 1. Clone and enter the repository.
 ```
-git clone https://github.com/ozneroL541/healthcheck-myserver.git \
+git clone https://github.com/radix54/healthcheck-myserver.git \
 && cd healthcheck-myserver
 ```
 2. Create a `.env` file like this:
@@ -42,7 +42,7 @@ sudo make uninstall
 ```
 
 ## Authors
-- @ozneroL541 Lorenzo Radice
+- @radix54 Lorenzo Radice
 
 ## License
 Copyright (C) 2026  Lorenzo Radice
