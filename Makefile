@@ -43,7 +43,7 @@ openrc_file:
 	@echo 'description="Healthcheck service to know if the system is alive"'	>> $(SERVICE_FILE)
 	@echo 'command="/usr/bin/python3"'					>> $(SERVICE_FILE)
 	@echo 'command_args="$(PATH_PY)"'					>> $(SERVICE_FILE)
-	@echo 'command_user="lorenzo"'						>> $(SERVICE_FILE)
+	@echo 'command_user="$(USER)"'						>> $(SERVICE_FILE)
 	@echo 'directory="$(PWD)"'							>> $(SERVICE_FILE)
 	@echo 'pidfile="/run/healthcheck.pid"'				>> $(SERVICE_FILE)
 	@echo 'respawn_delay=30'							>> $(SERVICE_FILE)

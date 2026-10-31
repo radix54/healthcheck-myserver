@@ -18,26 +18,26 @@ It notifies when the server is unreachable and when it starts up.
 
 ## Installation
 1. Clone and enter the repository.
-```
+```sh
 git clone https://github.com/radix54/healthcheck-myserver.git \
 && cd healthcheck-myserver
 ```
 2. Create a `.env` file like this:
-```
+```sh
 HC_UUID="AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA"
 SLEEP_MINUTES=30
 REQUEST_TIMEOUT=10
 ```
 3. Install the Healthcheck service
-```
+```sh
 sudo make install
 ```
 4. Start the service or reboot the server.
-```
+```sh
 sudo systemctl start healthcheck.service
 ```
-# Disinstallation
-```
+## Disinstallation
+```sh
 sudo make uninstall
 ```
 
