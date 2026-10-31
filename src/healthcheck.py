@@ -20,7 +20,7 @@ def load_dotenv_file(path:str=".env") -> None:
                 key, value = line.split("=", 1)
                 os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
     except OSError:
-        logging.error("Unable to read .env file.")
+        logging.warning("Unable to read .env file.")
 
 def main() -> None:
     load_dotenv_file()
