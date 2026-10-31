@@ -1,4 +1,6 @@
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=plastic)](https://www.gnu.org/licenses/gpl-3.0)
+[![GitHub Release](https://img.shields.io/github/v/release/radix54/healthcheck-myserver?style=plastic)](https://github.com/radix54/healthcheck-myserver/releases/latest)
+
 ![server](https://healthchecks.io/badge/6f6dfb3c-b9d6-4106-a467-af0f5c/v-j97T_0/server.svg)
 
 # Healthcheck My Server
